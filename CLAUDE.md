@@ -570,3 +570,7 @@ The root index.html is only a lightweight launcher page with links to each attem
 When a new attempt is created, add it to the list of links in the root index.html.
 
 Do not modify previous attempts unless explicitly asked.
+
+Before starting each new attempt, commit all current changes and push them to the remote repository (git add -A, commit, push to origin main), so the previous state is always saved before new work begins.
+
+Do not touch pages that the prompt does not explicitly name. Avoid making any changes that were not requested; if a requested change seems to require touching something else, ask first.
