@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <!-- Stylised schematic map placeholder (not geographically exact) -->
+  <defs>
+    <pattern id="blocks" width="70" height="70" patternUnits="userSpaceOnUse" patternTransform="rotate(-38)">
+      <rect width="70" height="70" fill="#e8eff8"/>
+      <rect x="6" y="6" width="58" height="58" rx="5" fill="#f5f8fd"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#blocks)"/>
+
+  <!-- Parks -->
+  <g fill="#dcebe4">
+    <path d="M180 640c60-40 150-30 190 20s10 130-60 150-160-10-180-60 0-80 50-110z"/>
+    <path d="M760 120c70-20 150 10 160 70s-50 100-120 100-110-40-110-90 20-70 70-80z"/>
+    <path d="M980 640c50-30 120-10 140 40s-20 100-80 100-90-30-100-70 0-50 40-70z"/>
+    <path d="M520 400c40-20 90 0 95 35s-30 60-70 60-60-25-60-50 10-35 35-45z"/>
+  </g>
+
+  <!-- River / reservoir -->
+  <path d="M1600 0H1080c-40 90-20 170 40 240 70 80 60 170 120 240 70 80 180 110 220 210 30 70 40 170 140 220V0z" fill="#bcd3ef"/>
+  <path d="M1080 0c-40 90-20 170 40 240 70 80 60 170 120 240 70 80 180 110 220 210 30 70 40 170 140 220" fill="none" stroke="#a6c3e8" stroke-width="6"/>
+
+  <!-- Main avenues -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M-40 980L1180 20" stroke-width="22"/>
+    <path d="M-40 520L1500 1040" stroke-width="18"/>
+    <path d="M140 -40L1100 1040" stroke-width="16"/>
+    <path d="M-40 260L1120 680" stroke-width="12"/>
+    <path d="M420 -40L1400 1040" stroke-width="12"/>
+    <path d="M-40 760L860 -40" stroke-width="12"/>
+    <path d="M300 1040L1250 160" stroke-width="12"/>
+  </g>
+  <g fill="none" stroke="#d4e0ef" stroke-linecap="round" stroke-width="1.5">
+    <path d="M-40 980L1180 20"/>
+    <path d="M-40 520L1500 1040"/>
+    <path d="M140 -40L1100 1040"/>
+  </g>
+
+  <!-- Railway -->
+  <path d="M-40 380C300 420 520 520 700 700S980 980 1100 1040" fill="none" stroke="#c4d2e4" stroke-width="5" stroke-dasharray="14 10"/>
+
+  <!-- Water label -->
+  <text x="1400" y="200" fill="#7fa3d1" font-family="Segoe UI, sans-serif" font-size="30" font-style="italic" letter-spacing="4">Дніпро</text>
+</svg>
